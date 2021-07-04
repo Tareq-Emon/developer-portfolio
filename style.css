@@ -10,10 +10,17 @@ h1{
 }
 section{
     display: flex;
+    margin-bottom: 150px;
 }
 .oh{
+    width: 60%;
+    padding-left: 5%;
+   
+}
+.image{
     width: 50%;
     padding-left: 5%;
+    padding-top: 4%;
 }
 .oh img{
     width: 80%;
@@ -29,4 +36,9 @@ section{
 .top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.dream{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
