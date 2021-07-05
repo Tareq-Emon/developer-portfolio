@@ -8,12 +8,12 @@ h1{
 .hi{
     color: green;
 }
-section{
+.flaxible-container{
     display: flex;
     margin-bottom: 150px;
 }
 .oh{
-    width: 60%;
+    width: 50%;
     padding-left: 5%;
    
 }
