@@ -14,8 +14,7 @@ h1{
 }
 .oh{
     width: 50%;
-    padding-left: 5%;
-   
+    padding-left: 5%;  
 }
 .image{
     width: 50%;
@@ -41,4 +40,32 @@ h1{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.exprience-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 15px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+    
+}
+.exprience{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    
+}
+#web-dev{
+    border-image: linear-gradient(rgb(179, 114, 114), rgb(93, 92, 204));
+    border-image-slice: 1;
+    border-left: 7px solid;
+}
+#web-dev-id{
+    border-image: linear-gradient(rgb(159, 189, 78), rgb(75, 126, 75));
+    border-image-slice: 1;
+    border-left: 7px solid;
+}
+footer p{
+    text-align: center;
 }
